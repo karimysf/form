@@ -1,0 +1,257 @@
+body{
+  background-image: url("image2.jpg");
+  
+
+  
+}
+
+.form{
+
+    border:20px solid rgb(229, 153, 216);
+    border-color: rgb(151, 117, 135);
+    border-width: 2px;
+   border-radius: 20px;
+    height:400px;
+    width:350px;
+    background: rgb(237, 237, 237, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 89%;
+    
+    
+}
+
+.container
+{
+    display: flex;
+    
+    justify-content: center;
+ 
+    
+}
+#UserName,#pwd{
+  border-radius: 20px;
+  height:30px;
+  margin-top: 20px;
+  border-color: rgb(135, 207, 244);
+  background-color: rgba(255, 255, 255, 0.537);
+  margin-left: 60px;
+  width:200px;
+
+}
+
+input::placeholder{
+  color:rgb(62, 60, 60);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#UserName:focus{
+  border-color: rgb(135, 207, 244);
+  background-color: rgba(255, 255, 255, 0.537);
+
+}
+h1{
+  color:rgb(87, 148, 239);
+  opacity: 50%;
+  margin-left :110px;
+}
+#us,#pw{
+  margin-left:-27px
+}
+#forgot{
+  color:rgb(204, 102, 197);
+  margin-left: 70px;
+}
+.Signin {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 60px;
+}
+#up{
+  margin-top: 16px;
+  margin-left: 80px;
+}
+#passwordeye
+{
+    position: relative ;
+    display: inline-block;
+
+}
+#toggler,#p2
+{
+position: relative;
+}
+#toggler
+{margin-left:10px;
+  z-index: 1;
+  visibility: visible;
+  transition: 3ms;
+  
+}
+#p2
+{  margin-left: -20px;
+  z-index:2;
+ visibility: hidden;
+ transition:3ms;
+}
+
+footer{
+  background-color: rgba(202, 246, 241, 0.826)  ;
+  width:100%;
+  left:0;
+  margin-top: 80px;
+  padding: 100px;
+  background-attachment: fixed;
+ 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2{
+  color: #5E5DF0  ;
+text-decoration:underline
+}
+.aboutme
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  text-shadow: dodgerblue;
+  text-decoration: wavy;
+  font-size: larger;
+ 
+    z-index: 3; 
+    margin-left:-500px;
+}
+
+#site
+{
+  color:rgb(94, 46, 250);
+  font-weight: 400;
+  text-decoration: none;
+  
+}
+#location,#em,#phone
+{
+  font-style: italic;
+}
+
+#hr{
+  z-index:4;
+  height:320px;
+  width:1px;
+  background-color: white;
+  margin-left:620px;
+ 
+}
+.container2 {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.contact
+{   color: #3eb2f0d3  ;
+  text-decoration:underline;
+  margin-left: 600px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+._12 {
+  font-size: 1.2em;
+}
+._14 {
+  font-size: 1.4em;
+}
+ul {
+  padding:0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 350px;
+  display:block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook-f {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-facebook-f:hover {
+  background-color: #3d5b99;
+}
+
+.fa-rss {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-instagram:hover {
+  background-color: #ea72d0;
+}
+.fa-instagram {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+
+.fa-linkedin {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #322f30;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
